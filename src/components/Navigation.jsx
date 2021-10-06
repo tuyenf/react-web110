@@ -8,10 +8,10 @@ function Navigation() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/form">Form</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/data">Data Page</Link>
         </li>
       </ul>
     </div>

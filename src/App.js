@@ -1,6 +1,9 @@
+import 'ag-grid-community/dist/styles/ag-grid.css';
+import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 import React from "react";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {Navigation, Home, About, Contact} from "./components";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import './App.css';
+import { DataPage, Form, Home, Navigation } from "./components";
 
 function App() {
   return (
@@ -9,8 +12,8 @@ function App() {
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />}/>
-          <Route path="/about" exact component={() => <About />}/>
-          <Route path="/contact" exact component={() => <Contact />}/>
+          <Route path="/form" exact component={() => <Form />}/>
+          <Route path="/data" exact component={() => <DataPage />}/>
         </Switch>
       </Router>
     </div>

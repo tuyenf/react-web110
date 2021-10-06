@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, withRouter} from "react-router-dom";
+import {withRouter} from "react-router-dom";
 function Home() {
   return (
     <div className="home">
@@ -8,9 +8,6 @@ function Home() {
         alt="home"
        />
        <h1 className="heading">Welcom to my wwebsite !</h1>
-       <buton>
-         <Link to="/about">See more</Link>
-       </buton>
     </div>
   )
 }
