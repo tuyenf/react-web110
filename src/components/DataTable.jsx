@@ -8,20 +8,17 @@ class DataTable extends PureComponent {
       <div style={{ maxWidth: "100%" }}>
         <MaterialTable
           columns={[
-            { title: "ID", field: "index" },
             { title: "Name", field: "name" },
             { title: "Email", field: "email" },
             { title: "Phone", field: "phone"}
           ]}
           data={[
             {
-              index: "1",
               name: "Nguyen Van A",
               email: "nguyenvana@gmail.com",
               phone: "0393141008",
             },
             {
-              index: "2",
               name: "Nguyen Thi B",
               email: "nguyenthib@gmail.com",
               phone: "0876338110",
